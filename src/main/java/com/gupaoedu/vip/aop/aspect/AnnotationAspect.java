@@ -51,6 +51,6 @@ public class AnnotationAspect {
 		System.out.println(joinPoint.getTarget()); //生成以后的代理对象
 		System.out.println(joinPoint.getThis());//当前类的本身(通过反射机制去掉用)
 		
-		LOG.info("抛出异常之后执行" + joinPoint);
+		LOG.info("抛出异常之后执行1" + joinPoint);
 	}
 }
